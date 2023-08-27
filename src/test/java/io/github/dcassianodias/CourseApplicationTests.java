@@ -1,4 +1,4 @@
-package com.danilodias.course;
+package io.github.dcassianodias;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package io.github.dcassianodias.controller;
+package io.github.dcassianodias.domain.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;

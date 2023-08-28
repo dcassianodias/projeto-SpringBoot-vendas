@@ -12,10 +12,13 @@ public class Cliente {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
     private Integer id;
-    @OneToMany(mappedBy = "cliente", fetch = FetchType.LAZY)
-    private Set<Pedido> pedidos;
+
     @Column(name = "nome", length = 100)
     private String nome;
+
+    @OneToMany(mappedBy = "cliente", fetch = FetchType.LAZY)
+    private Set<Pedido> pedidos;
+
     public Cliente(){};
     public Cliente(String nome) {
         this.nome = nome;

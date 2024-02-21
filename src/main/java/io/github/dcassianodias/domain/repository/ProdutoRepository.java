@@ -1,4 +1,4 @@
-package io.github.dcassianodias.domain.repositories;
+package io.github.dcassianodias.domain.repository;
 
 import io.github.dcassianodias.domain.model.Produto;
 import org.springframework.data.jpa.repository.JpaRepository;

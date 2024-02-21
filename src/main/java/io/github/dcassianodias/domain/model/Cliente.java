@@ -21,7 +21,8 @@ public class Cliente {
     @OneToMany(mappedBy = "cliente", fetch = FetchType.LAZY)
     private Set<Pedido> pedidos;
 
-    public Cliente(){};
+    public Cliente(){}
+
     public Cliente(String nome) {
         this.nome = nome;
     }
@@ -47,6 +48,7 @@ public class Cliente {
         this.nome = nome;
     }
 
+
     public Set<Pedido> getPedidos() {
         return pedidos;
     }
@@ -58,7 +60,7 @@ public class Cliente {
     @Override
     public String toString() {
         return "Cliente{" +
-                "id=" + id +
+                "id= " + id +
                 ", nome='" + nome + '\'' +
                 '}';
     }

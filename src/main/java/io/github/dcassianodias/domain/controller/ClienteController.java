@@ -1,7 +1,7 @@
 package io.github.dcassianodias.domain.controller;
 
 import io.github.dcassianodias.domain.model.Cliente;
-import io.github.dcassianodias.domain.repositories.ClienteRepository;
+import io.github.dcassianodias.domain.repository.ClienteRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
